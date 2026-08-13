@@ -183,6 +183,7 @@ export default function Home() {
           撮影・観測時は現地の状況を必ずご確認ください。
         </p>
         <p>
+          MIT License © 2026 坂田哲朗 ・{" "}
           <a
             href="https://github.com/twill3c/diamond-fuji-finder"
             target="_blank"
