@@ -1,5 +1,7 @@
 # diamond-fuji-finder — ダイヤモンド富士ファインダー
 
+**▶ 公開: https://diamond-fuji-finder.vercel.app**(GitHub 連携 Vercel、main への push で自動デプロイ)
+
 ダイヤモンド富士(太陽が富士山頂に重なって見える現象)が「いつ・どこで見られるか」を、
 観測地点ごとに天文計算で求めて一覧表示する完全静的サイト。
 NOAA 太陽位置アルゴリズム + Vincenty 測地計算による決定的計算のみで、外部 API 依存ゼロ・運用コストゼロ。
