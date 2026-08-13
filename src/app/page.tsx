@@ -198,7 +198,14 @@ export default function Home() {
           >
             GitHub
           </a>{" "}
-          — 完全静的・外部 API 依存ゼロ
+          — 完全静的・外部 API 依存ゼロ ・{" "}
+          <a
+            href="https://app-menu-amber.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            App Menu
+          </a>
         </p>
       </footer>
     </div>
