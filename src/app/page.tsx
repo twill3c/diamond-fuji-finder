@@ -157,6 +157,9 @@ export default function Home() {
           定番 {SPOTS.length} 地点について天文計算(NOAA 太陽位置 + Vincenty
           測地)で候補日時を導出します。
         </p>
+        <p className="tagline" style={{ marginTop: 4, fontSize: "0.8rem" }}>
+          📱 スマホ対応
+        </p>
       </header>
 
       {results === null ? (
