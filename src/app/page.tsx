@@ -200,6 +200,22 @@ export default function Home() {
           </a>{" "}
           — 完全静的・外部 API 依存ゼロ ・{" "}
           <a
+            href="https://claude.ai/code/artifact/d72a8132-d985-41f9-bb93-8e6127606148"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ダイヤモンド富士の探し方
+          </a>{" "}
+          ・{" "}
+          <a
+            href="https://claude.ai/code/artifact/95a92e74-e498-4f25-8bfa-d2f9a0067599"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ダイヤモンド富士ファインダー設計図
+          </a>{" "}
+          ・{" "}
+          <a
             href="https://app-menu-amber.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
