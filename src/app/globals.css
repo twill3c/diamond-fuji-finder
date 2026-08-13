@@ -32,3 +32,127 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px 64px;
+}
+.site-header {
+  padding: 48px 0 20px;
+}
+.site-header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 0.02em;
+}
+.tagline {
+  color: var(--muted);
+  margin-top: 8px;
+  font-size: 0.93rem;
+  max-width: 640px;
+}
+.loading {
+  color: var(--muted);
+  padding: 40px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 20px;
+}
+.card h2 {
+  font-size: 1.1rem;
+}
+.pref {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.next {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  background: var(--accent-soft);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.next.none {
+  background: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.days-until {
+  margin-left: 8px;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.note {
+  color: var(--muted);
+  font-size: 0.84rem;
+  margin-top: 10px;
+}
+.geo {
+  color: var(--muted);
+  font-size: 0.76rem;
+  margin-top: 8px;
+}
+.geo a {
+  color: var(--accent);
+}
+.badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.badge.perfect {
+  background: var(--accent);
+  color: var(--card);
+}
+.badge.good {
+  border: 1px solid var(--gold);
+  color: var(--gold);
+}
+details {
+  margin-top: 12px;
+}
+summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.86rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 0.84rem;
+}
+th,
+td {
+  text-align: left;
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--border);
+}
+th {
+  color: var(--muted);
+  font-weight: 600;
+}
+.delta {
+  font-variant-numeric: tabular-nums;
+}
+.site-footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.site-footer a {
+  color: var(--accent);
+}

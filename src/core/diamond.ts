@@ -122,6 +122,20 @@ function findAzimuthCrossing(
 }
 
 /**
+ * F-05: 基準日(JST の YYYY-MM-DD)以降で最初の候補を返す。当日を含む。
+ * 候補リストは findDiamondDates の出力順(日付昇順)を前提とする。
+ */
+export function nextCandidate(
+  candidates: DiamondCandidate[],
+  fromDateJst: string,
+): DiamondCandidate | null {
+  for (const c of candidates) {
+    if (c.dateJst >= fromDateJst) return c;
+  }
+  return null;
+}
+
+/**
  * F-03: 基準日(JST)から days 日分のダイヤモンド候補を探索する。
  * startUtcMs は探索開始日の JST 0:00 に対応する UTC ミリ秒(端数は日単位に切り捨て)。
  */
