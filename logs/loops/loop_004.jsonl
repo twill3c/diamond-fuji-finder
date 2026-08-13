@@ -1,0 +1,12 @@
+{"v": "1.2", "ts": "2026-08-13T18:52:25+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "loop_start", "data": {"goal": "F-04: 定番観測地点 12+ の手動キュレーションデータとスキーマ・データ品質検証を実装する", "spec_refs": ["F-04", "F-06"], "scaffold_version": "1.8.0", "agent": "claude-fable-5"}}
+{"v": "1.2", "ts": "2026-08-13T18:52:25+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "stage_end", "data": {"stage": 1, "stage_name": "計画", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-13T18:52:26+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "stage_end", "data": {"stage": 2, "stage_name": "文脈読込", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-13T18:54:16+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "test_run", "data": {"command": "npx vitest run", "passed": 27, "failed": 1}}
+{"v": "1.2", "ts": "2026-08-13T18:54:16+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "stage_end", "data": {"stage": 3, "stage_name": "テスト先行", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-13T18:56:24+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "test_run", "data": {"command": "npx vitest run", "passed": 31, "failed": 0}}
+{"v": "1.2", "ts": "2026-08-13T18:56:37+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "stage_end", "data": {"stage": 4, "stage_name": "実装", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-13T18:56:38+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-13T18:56:38+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書同期", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-13T18:56:38+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "commit", "data": {"sha": "a05f8dc", "kind": "data"}}
+{"v": "1.2", "ts": "2026-08-13T18:56:39+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "stage_end", "data": {"stage": 7, "stage_name": "完了", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-13T18:56:39+09:00", "project": "diamond-fuji-finder", "loop_id": "loop_004", "event": "loop_end", "data": {"outcome": "success", "failure_count": 0, "summary": "F-04 完了。定番 13 地点(西側 3・東側 10)をキュレーションし、スキーマ検証 + 朝夕整合 + 全地点が 500 日以内に候補 ≥1 を持つデータ品質テストを追加。31 テスト green"}}
